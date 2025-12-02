@@ -1,0 +1,1785 @@
+.component {
+  position: relative;
+  width: 1440px;
+  height: 4096px;
+}
+
+.component .main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.component .contact-container {
+  position: absolute;
+  width: 100%;
+  height: 25.00%;
+  top: 75.00%;
+  left: 0;
+  background-color: transparent;
+}
+
+.component .rectangle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+  background: linear-gradient(
+    180deg,
+    rgba(172, 203, 238, 1) 25%,
+    rgba(231, 240, 253, 1) 100%
+  );
+  z-index: -1;
+}
+
+.component .contact-title {
+  position: absolute;
+  width: 349px;
+  height: 45px;
+  top: 66px;
+  left: 546px;
+  display: flex;
+}
+
+.component .group {
+  flex: 1;
+  width: 351px;
+  position: relative;
+}
+
+.component .div {
+  position: absolute;
+  width: 17.09%;
+  height: 15.56%;
+  top: 42.22%;
+  left: 0;
+  border-radius: 25px;
+  background: linear-gradient(
+    270deg,
+    rgba(64, 83, 112, 1) 0%,
+    rgba(172, 203, 238, 0) 100%
+  );
+}
+
+.component .rectangle-2 {
+  width: 17.09%;
+  left: 82.34%;
+  transform: rotate(-180.00deg);
+  position: absolute;
+  height: 15.56%;
+  top: 42.22%;
+  border-radius: 25px;
+  background: linear-gradient(
+    270deg,
+    rgba(64, 83, 112, 1) 0%,
+    rgba(172, 203, 238, 0) 100%
+  );
+}
+
+.component .text-wrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: calc(50.00% - 100px);
+  width: 199px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: normal;
+}
+
+.component .send-message-form {
+  position: absolute;
+  width: 606px;
+  height: 654px;
+  top: 244px;
+  left: 417px;
+}
+
+.component .name-form {
+  position: absolute;
+  width: 35.48%;
+  height: 8.87%;
+  top: 0;
+  left: 0;
+}
+
+.component .text-wrapper-2 {
+  position: absolute;
+  width: 26.98%;
+  height: 32.76%;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 20px;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .placeholder-name {
+  width: 98%;
+  position: absolute;
+  height: 25.86%;
+  top: 56.90%;
+  left: 0;
+  opacity: 0.75;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.component .placeholder-name::placeholder {
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.component .important-name-line {
+  position: absolute;
+  width: 98.14%;
+  height: 3.45%;
+  top: 96.55%;
+  left: 0;
+  border-radius: 148px;
+  background: linear-gradient(
+    270deg,
+    rgba(172, 203, 238, 1) 0%,
+    rgba(64, 83, 112, 1) 100%
+  );
+}
+
+.component .email-form {
+  position: absolute;
+  width: 61.88%;
+  height: 8.87%;
+  top: 0;
+  left: 38.78%;
+}
+
+.component .text-wrapper-3 {
+  position: absolute;
+  width: 16.27%;
+  height: 32.76%;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 20px;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .placeholder-email {
+  width: 98%;
+  position: absolute;
+  height: 25.86%;
+  top: 56.90%;
+  left: 0;
+  opacity: 0.75;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.component .placeholder-email::placeholder {
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.component .important-email-ine {
+  position: absolute;
+  width: 98.93%;
+  height: 3.45%;
+  top: 96.55%;
+  left: 0;
+  border-radius: 205px;
+  background: linear-gradient(
+    270deg,
+    rgba(172, 203, 238, 1) 0%,
+    rgba(64, 83, 112, 1) 100%
+  );
+}
+
+.component .message-form {
+  width: 100.66%;
+  height: 86.39%;
+  top: 13.61%;
+  position: absolute;
+  left: 0;
+}
+
+.component .text-wrapper-4 {
+  position: absolute;
+  width: 15.57%;
+  height: 3.36%;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 20px;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .message-box {
+  width: 99.34%;
+  height: 93.27%;
+  top: 6.37%;
+  background-color: #3353772e;
+  position: absolute;
+  left: 0;
+}
+
+.component .important-message {
+  position: absolute;
+  width: 99.34%;
+  height: 2px;
+  top: 6.02%;
+  left: 0;
+  background-color: #335377;
+}
+
+.component .important-message-2 {
+  position: absolute;
+  width: 99.34%;
+  height: 2px;
+  top: 99.65%;
+  left: 0;
+  background-color: #335377;
+}
+
+.component .placeholder-type {
+  position: absolute;
+  width: 95%;
+  height: 85%;
+  top: 8.32%;
+  left: 2.46%;
+  opacity: 0.75;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 1.5;
+  background: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 0;
+}
+
+.component .placeholder-type::placeholder {
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.component .send-message-button {
+  position: absolute;
+  top: 925px;
+  left: 886px;
+  width: 139px;
+  height: 33px;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.component .send-message-button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.component .send-message-button:active {
+  transform: scale(0.92) translateY(1px);
+}
+
+.component .div-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 137px;
+  height: 33px;
+  background-color: #374f6a;
+  border-radius: 61px;
+}
+
+.component .text-wrapper-5 {
+  position: absolute;
+  width: 66.50%;
+  height: 48.48%;
+  top: 27.27%;
+  left: 10.79%;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: -0.26px;
+  line-height: normal;
+}
+
+.component .img {
+  position: absolute;
+  top: 12px;
+  left: 114px;
+  width: 7px;
+  height: 11px;
+}
+
+.component .contact-me-text {
+  position: absolute;
+  top: 162px;
+  left: 404px;
+  width: 634px;
+  height: 31px;
+}
+
+.component .rectangle-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 632px;
+  height: 31px;
+  background-color: #597ca2;
+  border-radius: 72px;
+}
+
+.component .p {
+  position: absolute;
+  top: 10px;
+  left: calc(50.00% - 290px);
+  width: 579px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .blogs-container {
+  position: absolute;
+  width: 100%;
+  height: 25.00%;
+  top: 50.00%;
+  left: 0;
+  background-color: transparent;
+}
+
+.component .overlap-group {
+  position: absolute;
+  width: 1048px;
+  height: 701px;
+  top: 223px;
+  left: 196px;
+}
+
+.component .horizontal-scroll {
+  position: absolute;
+  width: 1048px;
+  height: 30px;
+  top: 335px;
+  left: 0;
+}
+
+.component .blog-context {
+  position: absolute;
+  width: 869px;
+  height: 701px;
+  top: 0;
+  left: 90px;
+  display: flex;
+  gap: 25px;
+}
+
+.component .blog-context-box {
+  width: 273px;
+  height: 701px;
+  display: flex;
+  flex-direction: column;
+}
+
+.component .rectangle-4 {
+  height: 2px;
+  background-color: #335377;
+}
+
+.component .rectangle-5 {
+  width: 273px;
+  height: 398px;
+}
+
+.component .div-3 {
+  width: 279px;
+  height: 297px;
+  position: relative;
+}
+
+.component .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 273px;
+  height: 297px;
+  background-color: #3454783d;
+}
+
+.component .text-wrapper-6 {
+  position: absolute;
+  top: 271px;
+  left: 15px;
+  width: 61px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 10px;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .text-wrapper-7 {
+  position: absolute;
+  top: 116px;
+  left: 15px;
+  width: 243px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #335377;
+  font-size: 12px;
+  letter-spacing: -0.24px;
+  line-height: 17px;
+}
+
+.component .rectangle-6 {
+  position: absolute;
+  top: 96px;
+  left: 15px;
+  width: 25px;
+  height: 5px;
+}
+
+.component .text-wrapper-8 {
+  position: absolute;
+  top: 44px;
+  left: 15px;
+  width: 243px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.40px;
+  line-height: 22px;
+}
+
+.component .button-readmore {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 259px;
+  left: calc(50.00% + 20px);
+  width: 98px;
+  height: 22px;
+  display: flex;
+  background-color: #374f6a;
+  border-radius: 61px;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.component .button-readmore:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.component .button-readmore:active {
+  transform: scale(0.92) translateY(1px);
+}
+
+.component .readmore {
+  margin-top: 4px;
+  width: 70.28px;
+  height: 12px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.component .arrow {
+  position: absolute;
+  top: 2px;
+  left: 63px;
+  width: 5px;
+  height: 8px;
+}
+
+.component .text-wrapper-9 {
+  position: absolute;
+  width: 81.10%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .hash-group {
+  position: absolute;
+  width: 119px;
+  height: 14px;
+  top: 22px;
+  left: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.component .backend-hash {
+  width: 72px;
+  height: 14px;
+  position: relative;
+}
+
+.component .img-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 14px;
+}
+
+.component .text-wrapper-10 {
+  position: absolute;
+  top: 1px;
+  left: 7px;
+  width: 55px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .jpa-hash {
+  width: 44px;
+  height: 14px;
+  position: relative;
+}
+
+.component .rectangle-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 14px;
+}
+
+.component .text-wrapper-11 {
+  left: 7px;
+  width: 28px;
+  position: absolute;
+  top: 1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .hash-group-2 {
+  width: 127px;
+  display: flex;
+  gap: 6px;
+  position: absolute;
+  height: 14px;
+  top: 22px;
+  left: 15px;
+}
+
+.component .redis-hash {
+  width: 51px;
+  height: 14px;
+  position: relative;
+}
+
+.component .redis-hash-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 49px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.component .text-wrapper-12 {
+  left: 7px;
+  width: 35px;
+  position: absolute;
+  top: 1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .butoon-readmore {
+  position: absolute;
+  width: 98px;
+  height: 22px;
+  top: 259px;
+  left: 160px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.component .butoon-readmore:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.component .butoon-readmore:active {
+  transform: scale(0.92) translateY(1px);
+}
+
+.component .group-wrapper {
+  margin-top: 0;
+  width: 98px;
+  height: 22px;
+  background-color: #374f6a;
+  border-radius: 61px;
+}
+
+.component .group-2 {
+  position: relative;
+  width: 72.14%;
+  height: 54.55%;
+  top: 18.18%;
+  left: 15.31%;
+}
+
+.component .group-3 {
+  position: absolute;
+  top: 2px;
+  left: 63px;
+  width: 6px;
+  height: 9px;
+}
+
+.component .text-wrapper-13 {
+  position: absolute;
+  width: 80.62%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 98px;
+  height: 22px;
+  top: 259px;
+  left: 160px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.component .div-wrapper:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.component .div-wrapper:active {
+  transform: scale(0.92) translateY(1px);
+}
+
+.component .hash-group-3 {
+  width: 251px;
+  position: absolute;
+  height: 14px;
+  top: 22px;
+  left: 15px;
+}
+
+.component .rectangle-8 {
+  position: absolute;
+  top: 0;
+  left: 77px;
+  width: 39px;
+  height: 14px;
+}
+
+.component .rectangle-9 {
+  position: absolute;
+  top: 0;
+  left: 123px;
+  width: 42px;
+  height: 14px;
+}
+
+.component .text-wrapper-14 {
+  left: 130px;
+  width: 28px;
+  position: absolute;
+  top: 1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .rectangle-10 {
+  position: absolute;
+  top: 0;
+  left: 172px;
+  width: 71px;
+  height: 14px;
+}
+
+.component .text-wrapper-15 {
+  left: 84px;
+  width: 24px;
+  position: absolute;
+  top: 1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .text-wrapper-16 {
+  left: 179px;
+  position: absolute;
+  top: 1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .blogs-title {
+  position: absolute;
+  width: 247px;
+  height: 45px;
+  top: 66px;
+  left: 597px;
+  display: flex;
+}
+
+.component .group-4 {
+  flex: 1;
+  width: 249px;
+  position: relative;
+}
+
+.component .rectangle-11 {
+  width: 24.10%;
+  left: 0;
+  position: absolute;
+  height: 15.56%;
+  top: 42.22%;
+  border-radius: 25px;
+  background: linear-gradient(
+    270deg,
+    rgba(64, 83, 112, 1) 0%,
+    rgba(172, 203, 238, 0) 100%
+  );
+}
+
+.component .rectangle-12 {
+  width: 24.10%;
+  left: 75.10%;
+  transform: rotate(-180.00deg);
+  position: absolute;
+  height: 15.56%;
+  top: 42.22%;
+  border-radius: 25px;
+  background: linear-gradient(
+    270deg,
+    rgba(64, 83, 112, 1) 0%,
+    rgba(172, 203, 238, 0) 100%
+  );
+}
+
+.component .text-wrapper-17 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: calc(50.00% - 50px);
+  width: 97px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: normal;
+}
+
+.component .blogs-text {
+  position: absolute;
+  top: 151px;
+  left: 404px;
+  width: 634px;
+  height: 31px;
+}
+
+.component .text-wrapper-18 {
+  top: 10px;
+  left: calc(50.00% - 279px);
+  width: 557px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+}
+
+.component .projects-container {
+  position: absolute;
+  width: 100%;
+  height: 25.00%;
+  top: 25.00%;
+  left: 0;
+  background-color: transparent;
+}
+
+.component .button {
+  position: absolute;
+  width: 99px;
+  height: 30px;
+  top: 928px;
+  left: 671px;
+}
+
+.component .project-title {
+  position: absolute;
+  width: 20.35%;
+  height: 4.39%;
+  top: 6.45%;
+  left: 39.93%;
+}
+
+.component .rectangle-13 {
+  width: 20.48%;
+  left: 0;
+  position: absolute;
+  height: 15.56%;
+  top: 42.22%;
+  border-radius: 25px;
+  background: linear-gradient(
+    270deg,
+    rgba(64, 83, 112, 1) 0%,
+    rgba(172, 203, 238, 0) 100%
+  );
+}
+
+.component .rectangle-14 {
+  width: 20.48%;
+  left: 78.84%;
+  transform: rotate(-180.00deg);
+  position: absolute;
+  height: 15.56%;
+  top: 42.22%;
+  border-radius: 25px;
+  background: linear-gradient(
+    270deg,
+    rgba(64, 83, 112, 1) 0%,
+    rgba(172, 203, 238, 0) 100%
+  );
+}
+
+.component .text-wrapper-19 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: calc(50.00% - 72px);
+  width: 141px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: normal;
+}
+
+.component .project {
+  position: absolute;
+  top: 532px;
+  left: 196px;
+  width: 1054px;
+  height: 340px;
+}
+
+.component .text-wrapper-20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 104px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .important-sep-line {
+  position: absolute;
+  top: 13px;
+  left: 128px;
+  width: 920px;
+  height: 2px;
+  border-radius: 53px;
+  background: linear-gradient(
+    270deg,
+    rgba(172, 203, 238, 1) 0%,
+    rgba(64, 83, 112, 1) 100%
+  );
+}
+
+.component .text-wrapper-21 {
+  position: absolute;
+  top: 37px;
+  left: 931px;
+  width: 117px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #7b7b7b;
+  font-size: 11px;
+  text-align: right;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .text-wrapper-22 {
+  top: 55px;
+  position: absolute;
+  left: 942px;
+  width: 106px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 11px;
+  text-align: right;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .project-contents {
+  position: absolute;
+  top: 73px;
+  left: 131px;
+  width: 929px;
+  height: 267px;
+}
+
+.component .text-wrapper-23 {
+  position: absolute;
+  top: 0;
+  left: 325px;
+  width: 580px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 32px;
+  letter-spacing: -0.64px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .text-wrapper-24 {
+  position: absolute;
+  top: 43px;
+  left: 320px;
+  width: 467px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #335377;
+  font-size: 11px;
+  letter-spacing: -0.22px;
+  line-height: 21px;
+}
+
+.component .text-wrapper-24 p {
+  margin-bottom: 10px;
+}
+
+.component .text-wrapper-24 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.component .text-wrapper-24 ul li {
+  margin-bottom: 8px;
+}
+
+.component .img-3 {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 300px;
+  height: 260px;
+}
+
+.component .my-role {
+  top: 170px;
+  left: 326px;
+  width: 60px;
+  font-weight: 400;
+  color: #7b7b7b;
+  font-size: 11px;
+  letter-spacing: -0.22px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  line-height: normal;
+}
+
+.component .technologies-used {
+  position: absolute;
+  top: 211px;
+  left: 326px;
+  width: 126px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #7b7b7b;
+  font-size: 11px;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .tech-icon {
+  position: absolute;
+  width: 152px;
+  height: 34px;
+  top: 232px;
+  left: 335px;
+  display: flex;
+}
+
+.component .group-5 {
+  width: 28px;
+  height: 34.28px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6px;
+}
+
+.component .rectangle-15 {
+  margin-left: 2px;
+  width: 21.63px;
+  height: 22.66px;
+  object-fit: cover;
+}
+
+.component .text-wrapper-25 {
+  width: 26px;
+  height: 10px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .group-6 {
+  margin-top: 4px;
+  width: 35px;
+  height: 30.16px;
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6px;
+}
+
+.component .rectangle-16 {
+  margin-left: 7px;
+  width: 18.54px;
+  height: 18.54px;
+  object-fit: cover;
+}
+
+.component .text-wrapper-26 {
+  width: 33px;
+  height: 10px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .group-7 {
+  margin-top: 3px;
+  width: 59px;
+  height: 31px;
+  position: relative;
+  margin-left: 14px;
+}
+
+.component .rectangle-17 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+
+.component .text-wrapper-27 {
+  position: absolute;
+  top: 21px;
+  left: 0;
+  width: 57px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .text-wrapper-28 {
+  top: 186px;
+  left: 336px;
+  width: 106px;
+  font-weight: 700;
+  color: #335377;
+  font-size: 11px;
+  text-align: right;
+  letter-spacing: -0.22px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .text-wrapper-29 {
+  position: absolute;
+  top: 186px;
+  left: 459px;
+  width: 108px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 11px;
+  text-align: right;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .go-github-button {
+  position: absolute;
+  top: 234px;
+  left: 780px;
+  width: 139px;
+  height: 33px;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.component .go-github-button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.component .go-github-button:active {
+  transform: scale(0.92) translateY(1px);
+}
+
+.component .project-2 {
+  position: absolute;
+  top: 146px;
+  left: 196px;
+  width: 1054px;
+  height: 341px;
+}
+
+.component .important-sep-line-2 {
+  position: absolute;
+  top: 14px;
+  left: 128px;
+  width: 920px;
+  height: 2px;
+  border-radius: 53px;
+  background: linear-gradient(
+    270deg,
+    rgba(172, 203, 238, 1) 0%,
+    rgba(64, 83, 112, 1) 100%
+  );
+}
+
+.component .text-wrapper-30 {
+  position: absolute;
+  top: 38px;
+  left: 931px;
+  width: 117px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #7b7b7b;
+  font-size: 11px;
+  text-align: right;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .text-wrapper-31 {
+  top: 56px;
+  position: absolute;
+  left: 942px;
+  width: 106px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 11px;
+  text-align: right;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .project-contents-2 {
+  position: absolute;
+  top: 74px;
+  left: 131px;
+  width: 929px;
+  height: 267px;
+}
+
+.component .text-wrapper-32 {
+  position: absolute;
+  top: 0;
+  left: 325px;
+  width: 592px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 32px;
+  letter-spacing: -0.64px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .tech-icon-2 {
+  position: absolute;
+  width: 174px;
+  height: 34px;
+  top: 232px;
+  left: 335px;
+  display: flex;
+}
+
+.component .group-8 {
+  margin-top: 4px;
+  width: 35px;
+  height: 30.16px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6px;
+}
+
+.component .group-9 {
+  margin-top: 2px;
+  width: 33px;
+  height: 32px;
+  position: relative;
+  margin-left: 13px;
+}
+
+.component .rectangle-18 {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.component .text-wrapper-33 {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 31px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .group-10 {
+  margin-top: 4px;
+  width: 38px;
+  height: 30.16px;
+  position: relative;
+  margin-left: 13px;
+}
+
+.component .rectangle-19 {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 21px;
+  height: 21px;
+  object-fit: cover;
+}
+
+.component .text-wrapper-34 {
+  top: 20px;
+  left: 0;
+  width: 36px;
+  font-weight: 700;
+  color: #335377;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: -0.20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  line-height: normal;
+}
+
+.component .go-expression-button {
+  position: absolute;
+  width: 95px;
+  height: 33px;
+  top: 308px;
+  left: 953px;
+  display: flex;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.component .go-expression-button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.component .go-expression-button:active {
+  transform: scale(0.92) translateY(1px);
+}
+
+.component .go-button-box {
+  width: 97px;
+  height: 33px;
+  position: relative;
+}
+
+.component .go-button-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95px;
+  height: 33px;
+  background-color: #374f6a;
+  border-radius: 82px;
+}
+
+.component .text-wrapper-35 {
+  width: 52.58%;
+  height: 48.48%;
+  top: 27.27%;
+  left: 15.46%;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: -0.26px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+}
+
+.component .arrow-2 {
+  position: absolute;
+  top: 12px;
+  left: 73px;
+  width: 7px;
+  height: 11px;
+}
+
+.component .home-container {
+  position: absolute;
+  width: 100%;
+  height: 25.00%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.component .text-wrapper-36 {
+  position: absolute;
+  top: 966px;
+  left: calc(50.00% - 120px);
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #8e8e8e;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .download-and-enter {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  top: 589px;
+  left: 196px;
+}
+
+.component .download-resume {
+  position: relative;
+  width: 114px;
+  height: 33px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.component .download-resume:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.component .download-resume:active {
+  transform: scale(0.92) translateY(1px);
+}
+
+.component .resume-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 112px;
+  height: 33px;
+  background-color: #374f6a;
+  border-radius: 82px;
+}
+
+.component .text-wrapper-37 {
+  width: 64.04%;
+  height: 48.48%;
+  top: 24.24%;
+  left: 9.65%;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: -0.26px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  line-height: normal;
+}
+
+.component .down-arrow {
+  position: absolute;
+  top: 14px;
+  left: 90px;
+  width: 11px;
+  height: 7px;
+}
+
+.component .important-gradient {
+  position: relative;
+  width: 659px;
+  height: 2px;
+  border-radius: 24px;
+  background: linear-gradient(
+    90deg,
+    rgba(172, 203, 238, 1) 0%,
+    rgba(64, 83, 112, 1) 100%
+  );
+}
+
+.component .enter-logos {
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.component .github-logo {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.component .linkedin-logo {
+  position: relative;
+  width: 35px;
+  height: 36px;
+  object-fit: cover;
+}
+
+.component .naver-blog-logo {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+
+.component .text-wrapper-38 {
+  position: absolute;
+  width: 22.29%;
+  height: 2.93%;
+  top: 47.75%;
+  left: 13.61%;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #476a90;
+  font-size: 25px;
+  letter-spacing: -0.50px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .text-wrapper-39 {
+  position: absolute;
+  width: 14.10%;
+  height: 4.30%;
+  top: 42.48%;
+  left: 13.61%;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #335377;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: normal;
+}
+
+.component .back-end-engineer {
+  width: 11.11%;
+  height: 0;
+  top: 38.57%;
+  left: 13.68%;
+  font-weight: 200;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.component .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 60px;
+  background-color: #adcbee;
+  z-index: 1000;
+}
+
+.component .header-background {
+  position: absolute;
+  width: 100%;
+  height: 99.91%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 9px 27.9px 7px #81a0c3;
+}
+
+.component .text-wrapper-40 {
+  position: absolute;
+  top: 16px;
+  left: 119px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #597ca2;
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: normal;
+}
+
+.component .button-bar {
+  position: absolute;
+  top: 54px;
+  left: 897px;
+  width: 76px;
+  height: 6px;
+  background-color: #597ca2;
+  transition: left 0.3s ease, width 0.3s ease;
+}
+
+.component .navbar {
+  position: absolute;
+  top: 18px;
+  left: 908px;
+  width: 420px;
+  height: 24px;
+  display: flex;
+  gap: 49px;
+}
+
+.component .text-wrapper-41 {
+  width: 57px;
+  height: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #597ca2;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.component .text-wrapper-41:hover {
+  opacity: 0.7;
+}
+
+.component .text-wrapper-42 {
+  width: 77px;
+  height: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #597ca2;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.component .text-wrapper-42:hover {
+  opacity: 0.7;
+}
+
+.component .text-wrapper-43 {
+  width: 53px;
+  height: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #597ca2;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.component .text-wrapper-43:hover {
+  opacity: 0.7;
+}
+
+.component .text-wrapper-44 {
+  width: 78px;
+  height: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #597ca2;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.component .text-wrapper-44:hover {
+  opacity: 0.7;
+}
